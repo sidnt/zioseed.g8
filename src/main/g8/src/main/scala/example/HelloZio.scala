@@ -12,6 +12,6 @@ object HelloZio extends App {
     for {
       _ <- putStrLn("Hello! What is your name?")
       n <- getStrLn
-      _ <- putStrLn(s"Hello, ${n}!")
+      _ <- putStrLn(s"Hello, " + n + ", welcome to ZIO!")
     } yield ()
 }
