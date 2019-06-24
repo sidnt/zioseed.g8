@@ -1,7 +1,7 @@
 package example
 
-import scalaz.zio.App
-import scalaz.zio.console._
+import zio.App
+import zio.console._
 
 object HelloZio extends App {
 
