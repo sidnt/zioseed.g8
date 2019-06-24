@@ -9,7 +9,6 @@ lazy val root = (project in file("."))
   .settings(
     name := "$name$",
     libraryDependencies ++= Seq(
-      scalaTest % Test,
       zio
     )
   )
