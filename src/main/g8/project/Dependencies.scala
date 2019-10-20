@@ -2,8 +2,10 @@ import sbt._
 
 object Dependencies {
 
-  lazy val zioVersion = "1.0.0-RC10-1"
+  object Versions {
+    lazy val zioV = "1.0.0-RC15"
+  }; import Versions._
 
-  lazy val zio = "dev.zio" %% "zio" % zioVersion
+  lazy val zio = "dev.zio" %% "zio" % zioV
   
 }
